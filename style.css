@@ -67,7 +67,81 @@ nav h1{
     transition: 0.3s ease;
 }
 .common_button:hover{
-    background-color: #ffffff;
-    color: #006A50;
-    border: 2px solid #006A50;
+    background-color: #1e9174;
+}
+.heading{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.common_dec{
+    color: #0e0e0e85;
+}
+/* section 1 */
+.box{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.box h5{
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.box_head{
+    display: flex;
+    gap: 25px;
+}
+
+/* section 2 */
+.card_head{
+    margin: 32px 0;
+    display: flex;
+    gap: 25px;
+}
+.card1{
+    background-color: #548ff574;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card2{
+    background-color: #C6E4D6;
+}
+.card3{
+    background-color: #F7EBCF;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.card1_btn{
+    padding: 10px 20px;
+    color: white;
+    margin-top: 25px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.card1_btn:hover{
+    background-color: #2d69d1;
+}
+.card2_btn{
+    background-color: #09A15C;
+}
+.card2_btn:hover{
+    background-color: #046b3c;
+}
+.card3_btn{
+    background-color: #FFC239;
+}
+.card3_btn:hover{
+    background-color: #c3911c;
+}
+.card_head h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0;
 }
