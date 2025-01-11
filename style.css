@@ -70,7 +70,6 @@ nav h1{
     background-color: #1e9174;
 }
 .heading{
-    margin-top: 80px;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 35px;
@@ -79,6 +78,9 @@ nav h1{
     color: #0e0e0e85;
 }
 /* section 1 */
+.section_1{
+    margin-top: 80px;
+}
 .box{
     padding: 25px;
     background-color: #fff;
@@ -95,6 +97,9 @@ nav h1{
 }
 
 /* section 2 */
+.section_2{
+    margin-top: 80px;
+}
 .card_head{
     margin: 32px 0;
     display: flex;
@@ -147,6 +152,9 @@ nav h1{
 }
 
 /* section3 */
+.section_3{
+    margin-top: 80px;
+}
 .bd_dec{
     background-image: url("assets/quote-bg.png");
     background-repeat: no-repeat;
@@ -166,6 +174,9 @@ nav h1{
 }
 
 /* section4 */
+.section_4{
+    margin-top: 80px;
+}
 .news1{
     display: flex;
     background-color: white;
@@ -190,4 +201,74 @@ nav h1{
 }
 .news_dec{
     padding-bottom: 35px;
+}
+
+/* section 5 */
+.section_5{
+    margin-top: 80px;
+}
+.center{
+    text-align: center;
+}
+.donate_headbox{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 35px 0;
+}
+.donate_box{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    transition: 0.3s ease;
+    cursor: default;
+}
+.donate_box2{
+    background-color: #C6E4D6;
+}
+.donate_box:hover{
+    background-color: #C6E4D6;
+}
+.section_5 input{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+.done_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* section 6 */
+.section_6{
+    margin-top: 80px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.subscribe{
+    padding: 80px 265px;
+}
+.sub_head{
+    margin-bottom: 16px;
+}
+.input_btn{
+    display: flex;
+    padding: 25px 0;
+}
+.input_btn input{
+    width: 100%;
+    padding: 18px 40px;
+    border: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.Subscribe_btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
