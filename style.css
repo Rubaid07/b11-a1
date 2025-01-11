@@ -5,10 +5,14 @@
     font-family: "Fira Sans", serif;
 }
 body{
-    margin: 35px 210px;
     background-color: #F5F5F5;
 }
-
+main{
+    margin: 35px 210px;
+}
+header{
+    margin: 35px 210px;
+}
 /* Nav */
 nav{
     display: flex;
@@ -271,4 +275,23 @@ nav h1{
 .Subscribe_btn{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+/* footer */
+footer{
+    margin-top: 80px;
+    background-color: white;
+}
+.footer{
+    padding: 50px 210px;
+}
+.bangladesh{
+    padding-bottom: 32px;
+    margin-bottom: 0;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 25px;
 }
